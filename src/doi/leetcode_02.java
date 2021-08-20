@@ -1,4 +1,4 @@
-package java;
+package doi;
 
 /**
  * @ClassName leetcode_02

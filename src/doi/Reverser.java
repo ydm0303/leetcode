@@ -1,4 +1,4 @@
-package java;
+package doi;
 
 import com.sun.org.apache.bcel.internal.generic.RETURN;
 
@@ -9,7 +9,7 @@ import com.sun.org.apache.bcel.internal.generic.RETURN;
  * @Date 2021/7/23 10:38
  **/
 
-//ÕûÊý·´×ª
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ª
 public class Reverser {
     public int reverse(int x){
         long ans = 0;
@@ -21,13 +21,13 @@ public class Reverser {
     }
 }
 
-//Òç³öÎÊÌâ
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 /*
-ÒòÎª²»ÄÜÓÃlong£¬ÓÃString´¦Àí¹ý½çÎÊÌâÒ²ºÜÂé·³£¬ËùÒÔ¾ÍÖ»ÄÜ¹Ô¹ÔÓÃintÁË¡£
-µ±res > 0Ê±£¬Èô res * 10 + x % 10 > Integer.MAX_VALUE£¬µÈ¼ÛÓÚres > (Integer.MAX_VALUE - x % 10) / 10£¬Èô³ÉÁ¢£¬Ôò³¬³ö·¶Î§£¨×¢Òâ£¬ÕâÀïxÊÇÕýÊý£©
-µ±res < 0Ê±£¬Èô res * 10 + x % 10 < Integer.MIN_VALUE£¬µÈ¼ÛÓÚres < (Integer.MIN_VALUE - x % 10) / 10£¬Èô³ÉÁ¢£¬Ôò³¬³ö·¶Î§£¨×¢Òâ£¬ÕâÀïxÊÇ¸ºÊý£©
+ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½longï¿½ï¿½ï¿½ï¿½Stringï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò²ï¿½ï¿½ï¿½é·³ï¿½ï¿½ï¿½ï¿½ï¿½Ô¾ï¿½Ö»ï¿½Ü¹Ô¹ï¿½ï¿½ï¿½intï¿½Ë¡ï¿½
+ï¿½ï¿½res > 0Ê±ï¿½ï¿½ï¿½ï¿½ res * 10 + x % 10 > Integer.MAX_VALUEï¿½ï¿½ï¿½È¼ï¿½ï¿½ï¿½res > (Integer.MAX_VALUE - x % 10) / 10ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ò³¬³ï¿½ï¿½ï¿½Î§ï¿½ï¿½×¢ï¿½â£¬ï¿½ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½res < 0Ê±ï¿½ï¿½ï¿½ï¿½ res * 10 + x % 10 < Integer.MIN_VALUEï¿½ï¿½ï¿½È¼ï¿½ï¿½ï¿½res < (Integer.MIN_VALUE - x % 10) / 10ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ò³¬³ï¿½ï¿½ï¿½Î§ï¿½ï¿½×¢ï¿½â£¬ï¿½ï¿½ï¿½ï¿½xï¿½Ç¸ï¿½ï¿½ï¿½ï¿½ï¿½
 
-¡£
+ï¿½ï¿½
 * */
 class Solution{
     public int reverse(int x){

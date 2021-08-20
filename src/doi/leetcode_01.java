@@ -1,4 +1,4 @@
-package java;
+package doi;
 
 import java.util.concurrent.ForkJoinPool;
 
