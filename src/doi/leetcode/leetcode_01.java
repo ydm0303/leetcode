@@ -1,4 +1,4 @@
-package doi;
+package doi.leetcode;
 
 import java.util.concurrent.ForkJoinPool;
 
