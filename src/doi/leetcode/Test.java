@@ -22,4 +22,5 @@ public class Test {
         b=a^b;
         a=a^b;
     }
+
 }
